@@ -1,0 +1,1225 @@
+1675568243354	geckodriver	INFO	Listening on 127.0.0.1:52597
+1675568244091	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "60439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCC8YS5"
+*** You are running in headless mode.
+
+(firefox:54): Gtk-WARNING **: 22:37:24.152: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.584074) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.584074) |[1][GFX1-]: glxtest: libEGL no display (t=0.584114) [GFX1-]: glxtest: libEGL no display
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.584074) |[1][GFX1-]: glxtest: libEGL no display (t=0.584114) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.584127) [GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.584074) |[1][GFX1-]: glxtest: libEGL no display (t=0.584114) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.584127) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.584133) [GFX1-]: PCI candidate 0x102b/0x0536
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.584074) |[1][GFX1-]: glxtest: libEGL no display (t=0.584114) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.584127) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.584133) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584139) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.584074) |[1][GFX1-]: glxtest: libEGL no display (t=0.584114) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.584127) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.584133) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584139) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584145) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.584074) |[1][GFX1-]: glxtest: libEGL no display (t=0.584114) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.584127) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.584133) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584139) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584145) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584151) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.584074) |[1][GFX1-]: glxtest: libEGL no display (t=0.584114) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.584127) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.584133) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584139) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584145) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584151) |[7][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584157) [GFX1-]: PCI candidate 0x10de/0x20b0
+1675568245207	Marionette	INFO	Marionette enabled
+1675568245212	Marionette	INFO	Listening on port 44801
+WebDriver BiDi listening on ws://localhost:60439
+Read port: 44801
+1675568245359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.584074) |[1][GFX1-]: glxtest: libEGL no display (t=0.584114) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.584127) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.584133) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584139) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584145) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584151) |[7][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.584157) |[8][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.70058) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCC8YS5/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:60439/devtools/browser/6faf1d2d-a04b-4e27-83cf-668e78d43261
+1675568246554	Marionette	INFO	Stopped listening on port 44801
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: resource://services-settings/Utils.jsm, line 237: TypeError: NetworkError: Network request failed
+1675568644285	geckodriver	INFO	Listening on 127.0.0.1:43633
+1675568644843	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "60501" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileineRLh"
+*** You are running in headless mode.
+
+(firefox:337): Gtk-WARNING **: 22:44:04.893: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224771) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224771) |[1][GFX1-]: glxtest: libEGL no display (t=0.22481) [GFX1-]: glxtest: libEGL no display
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224771) |[1][GFX1-]: glxtest: libEGL no display (t=0.22481) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.224822) [GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224771) |[1][GFX1-]: glxtest: libEGL no display (t=0.22481) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.224822) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224828) [GFX1-]: PCI candidate 0x102b/0x0536
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224771) |[1][GFX1-]: glxtest: libEGL no display (t=0.22481) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.224822) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224828) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224834) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224771) |[1][GFX1-]: glxtest: libEGL no display (t=0.22481) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.224822) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224828) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224834) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.22484) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224771) |[1][GFX1-]: glxtest: libEGL no display (t=0.22481) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.224822) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224828) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224834) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.22484) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224846) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224771) |[1][GFX1-]: glxtest: libEGL no display (t=0.22481) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.224822) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224828) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224834) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.22484) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224846) |[7][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224859) [GFX1-]: PCI candidate 0x10de/0x20b0
+1675568645090	Marionette	INFO	Marionette enabled
+1675568645094	Marionette	INFO	Listening on port 43627
+WebDriver BiDi listening on ws://localhost:60501
+Read port: 43627
+1675568645192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224771) |[1][GFX1-]: glxtest: libEGL no display (t=0.22481) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.224822) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224828) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224834) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.22484) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224846) |[7][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224859) |[8][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.649549) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileineRLh/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:60501/devtools/browser/c84cd00d-c3d5-4b5b-b321-77163b8a7f24
+1675568646078	Marionette	INFO	Stopped listening on port 43627
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 143: Error: Shutdown, aborting read-only worker requests.
+1675568647361	geckodriver	INFO	Listening on 127.0.0.1:45379
+1675568647921	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "43721" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesU7uDm"
+*** You are running in headless mode.
+
+(firefox:571): Gtk-WARNING **: 22:44:07.971: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225737) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225737) |[1][GFX1-]: glxtest: libEGL no display (t=0.225779) [GFX1-]: glxtest: libEGL no display
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225737) |[1][GFX1-]: glxtest: libEGL no display (t=0.225779) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.225792) [GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225737) |[1][GFX1-]: glxtest: libEGL no display (t=0.225779) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.225792) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.225798) [GFX1-]: PCI candidate 0x102b/0x0536
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225737) |[1][GFX1-]: glxtest: libEGL no display (t=0.225779) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.225792) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.225798) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.225807) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225737) |[1][GFX1-]: glxtest: libEGL no display (t=0.225779) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.225792) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.225798) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.225807) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.225813) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225737) |[1][GFX1-]: glxtest: libEGL no display (t=0.225779) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.225792) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.225798) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.225807) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.225813) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.22582) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225737) |[1][GFX1-]: glxtest: libEGL no display (t=0.225779) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.225792) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.225798) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.225807) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.225813) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.22582) |[7][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.225974) [GFX1-]: PCI candidate 0x10de/0x20b0
+1675568648169	Marionette	INFO	Marionette enabled
+1675568648172	Marionette	INFO	Listening on port 41533
+WebDriver BiDi listening on ws://localhost:43721
+Read port: 41533
+1675568648270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225737) |[1][GFX1-]: glxtest: libEGL no display (t=0.225779) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.225792) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.225798) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.225807) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.225813) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.22582) |[7][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.225974) |[8][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.705384) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesU7uDm/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43721/devtools/browser/97dafe0d-931e-4d03-a78b-0baf8ab4958f
+1675569989648	geckodriver	INFO	Listening on 127.0.0.1:51151
+1675569990204	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "35051" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexQOEkM"
+*** You are running in headless mode.
+
+(firefox:853): Gtk-WARNING **: 23:06:30.251: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223988) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223988) |[1][GFX1-]: glxtest: libEGL no display (t=0.224028) [GFX1-]: glxtest: libEGL no display
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223988) |[1][GFX1-]: glxtest: libEGL no display (t=0.224028) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.22404) [GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223988) |[1][GFX1-]: glxtest: libEGL no display (t=0.224028) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.22404) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224046) [GFX1-]: PCI candidate 0x102b/0x0536
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223988) |[1][GFX1-]: glxtest: libEGL no display (t=0.224028) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.22404) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224046) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224052) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223988) |[1][GFX1-]: glxtest: libEGL no display (t=0.224028) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.22404) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224046) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224052) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224058) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223988) |[1][GFX1-]: glxtest: libEGL no display (t=0.224028) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.22404) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224046) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224052) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224058) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224064) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223988) |[1][GFX1-]: glxtest: libEGL no display (t=0.224028) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.22404) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224046) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224052) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224058) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224064) |[7][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224071) [GFX1-]: PCI candidate 0x10de/0x20b0
+1675569990446	Marionette	INFO	Marionette enabled
+1675569990449	Marionette	INFO	Listening on port 34175
+WebDriver BiDi listening on ws://localhost:35051
+Read port: 34175
+1675569990548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223988) |[1][GFX1-]: glxtest: libEGL no display (t=0.224028) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.22404) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.224046) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224052) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224058) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224064) |[7][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.224071) |[8][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.678498) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexQOEkM/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:35051/devtools/browser/09297446-d41d-4c67-a900-09c4c939eb35
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 6730 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 6730 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 5449 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 5449 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: , line 0: uncaught exception: 7
+1675570030249	Marionette	INFO	Stopped listening on port 34175
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675570030658	geckodriver	INFO	Listening on 127.0.0.1:43531
+1675570031202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "53955" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilep0N7WT"
+*** You are running in headless mode.
+
+(firefox:1122): Gtk-WARNING **: 23:07:11.249: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22768) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22768) |[1][GFX1-]: glxtest: libEGL no display (t=0.227722) [GFX1-]: glxtest: libEGL no display
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22768) |[1][GFX1-]: glxtest: libEGL no display (t=0.227722) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.227734) [GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22768) |[1][GFX1-]: glxtest: libEGL no display (t=0.227722) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.227734) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.22774) [GFX1-]: PCI candidate 0x102b/0x0536
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22768) |[1][GFX1-]: glxtest: libEGL no display (t=0.227722) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.227734) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.22774) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227746) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22768) |[1][GFX1-]: glxtest: libEGL no display (t=0.227722) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.227734) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.22774) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227746) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227753) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22768) |[1][GFX1-]: glxtest: libEGL no display (t=0.227722) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.227734) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.22774) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227746) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227753) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227759) [GFX1-]: PCI candidate 0x10de/0x20b0
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22768) |[1][GFX1-]: glxtest: libEGL no display (t=0.227722) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.227734) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.22774) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227746) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227753) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227759) |[7][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227938) [GFX1-]: PCI candidate 0x10de/0x20b0
+1675570031447	Marionette	INFO	Marionette enabled
+1675570031450	Marionette	INFO	Listening on port 39085
+WebDriver BiDi listening on ws://localhost:53955
+Read port: 39085
+1675570031548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22768) |[1][GFX1-]: glxtest: libEGL no display (t=0.227722) |[2][GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor (t=0.227734) |[3][GFX1-]: PCI candidate 0x102b/0x0536 (t=0.22774) |[4][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227746) |[5][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227753) |[6][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227759) |[7][GFX1-]: PCI candidate 0x10de/0x20b0 (t=0.227938) |[8][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.647863) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilep0N7WT/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:53955/devtools/browser/67ab5296-5085-4adc-8fa9-ac1e2ce237a4
+1675570035329	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675570035333	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675570035337	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675570035341	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675570035345	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675570035349	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675570035353	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675570035357	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675570035360	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675570035371	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576746089	geckodriver	INFO	Listening on 127.0.0.1:38929
+1675576746553	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "49863" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemTuDjv"
+*** You are running in headless mode.
+
+(firefox:57): Gtk-WARNING **: 00:59:06.630: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.554292) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.554292) |[1][GFX1-]: glxtest: libEGL no display (t=0.554339) [GFX1-]: glxtest: libEGL no display
+1675576747184	Marionette	INFO	Marionette enabled
+1675576747188	Marionette	INFO	Listening on port 46425
+WebDriver BiDi listening on ws://localhost:49863
+Read port: 46425
+1675576747335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.554292) |[1][GFX1-]: glxtest: libEGL no display (t=0.554339) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.19343) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemTuDjv/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:49863/devtools/browser/c3a658ce-cfd4-4ca2-a08b-b285d57ccc2a
+1675576748315	Marionette	INFO	Stopped listening on port 46425
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675576750417	geckodriver	INFO	Listening on 127.0.0.1:51471
+1675576750983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "43435" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebQ8cJr"
+*** You are running in headless mode.
+
+(firefox:322): Gtk-WARNING **: 00:59:11.032: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.243049) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.243049) |[1][GFX1-]: glxtest: libEGL no display (t=0.2431) [GFX1-]: glxtest: libEGL no display
+1675576751257	Marionette	INFO	Marionette enabled
+1675576751261	Marionette	INFO	Listening on port 44523
+WebDriver BiDi listening on ws://localhost:43435
+Read port: 44523
+1675576751369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.243049) |[1][GFX1-]: glxtest: libEGL no display (t=0.2431) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.71062) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebQ8cJr/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43435/devtools/browser/6955bfb1-e503-4af3-b987-5fdffbb116f6
+1675576754995	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576755002	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576755007	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576755020	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576755035	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576755052	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576755068	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576755094	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576755117	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576755124	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576817595	geckodriver	INFO	Listening on 127.0.0.1:49057
+1675576818149	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "43235" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWlwjRg"
+*** You are running in headless mode.
+
+(firefox:573): Gtk-WARNING **: 01:00:18.190: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225492) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225492) |[1][GFX1-]: glxtest: libEGL no display (t=0.225536) [GFX1-]: glxtest: libEGL no display
+1675576818388	Marionette	INFO	Marionette enabled
+1675576818391	Marionette	INFO	Listening on port 34039
+WebDriver BiDi listening on ws://localhost:43235
+Read port: 34039
+1675576818491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225492) |[1][GFX1-]: glxtest: libEGL no display (t=0.225536) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.661708) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWlwjRg/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43235/devtools/browser/3216c41a-5dba-4dcf-a100-8734c0316240
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 4213 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 4213 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 1118 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 1118 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1675576857832	Marionette	INFO	Stopped listening on port 34039
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675576858213	geckodriver	INFO	Listening on 127.0.0.1:46773
+1675576858754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "59057" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTglaGv"
+*** You are running in headless mode.
+
+(firefox:823): Gtk-WARNING **: 01:00:58.797: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223045) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223045) |[1][GFX1-]: glxtest: libEGL no display (t=0.223085) [GFX1-]: glxtest: libEGL no display
+1675576859002	Marionette	INFO	Marionette enabled
+1675576859005	Marionette	INFO	Listening on port 43501
+WebDriver BiDi listening on ws://localhost:59057
+Read port: 43501
+1675576859090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.223045) |[1][GFX1-]: glxtest: libEGL no display (t=0.223085) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.643241) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTglaGv/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:59057/devtools/browser/cd80eca5-b4ae-4d72-92ad-d4c9c24ad07b
+1675576862382	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576862388	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576862392	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576862396	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576862400	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576862410	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576862414	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576862418	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576862422	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675576862425	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577039596	geckodriver	INFO	Listening on 127.0.0.1:49121
+1675577040151	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "51853" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileu9Qiz5"
+*** You are running in headless mode.
+
+(firefox:1081): Gtk-WARNING **: 01:04:00.191: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224888) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224888) |[1][GFX1-]: glxtest: libEGL no display (t=0.224929) [GFX1-]: glxtest: libEGL no display
+1675577040389	Marionette	INFO	Marionette enabled
+1675577040393	Marionette	INFO	Listening on port 37251
+WebDriver BiDi listening on ws://localhost:51853
+Read port: 37251
+1675577040568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.224888) |[1][GFX1-]: glxtest: libEGL no display (t=0.224929) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.662226) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu9Qiz5/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:51853/devtools/browser/5149cdde-1642-482c-9528-e7833ea4a687
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 1766 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 1766 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 7349 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 7349 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1675577081260	Marionette	INFO	Stopped listening on port 37251
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675577081657	geckodriver	INFO	Listening on 127.0.0.1:45053
+1675577082197	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "38025" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileP5NzCW"
+*** You are running in headless mode.
+
+(firefox:1333): Gtk-WARNING **: 01:04:42.239: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.221966) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.221966) |[1][GFX1-]: glxtest: libEGL no display (t=0.22201) [GFX1-]: glxtest: libEGL no display
+1675577082434	Marionette	INFO	Marionette enabled
+1675577082437	Marionette	INFO	Listening on port 34255
+WebDriver BiDi listening on ws://localhost:38025
+Read port: 34255
+1675577082539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.221966) |[1][GFX1-]: glxtest: libEGL no display (t=0.22201) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.651339) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileP5NzCW/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38025/devtools/browser/a392a42b-8b8a-4c03-af1a-7c3433f62b29
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=102939351&moatClientLevel2=2707579588&moatClientLevel3=5398313903&moatClientLevel4=138314257809&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=1x1, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=102939351&moatClientLevel2=2707579588&moatClientLevel3=5398313903&moatClientLevel4=138314257809&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=1x1, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=102939351&moatClientLevel2=2707579588&moatClientLevel3=5398313903&moatClientLevel4=138314257809&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=1x1, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=102939351&moatClientLevel2=2707579588&moatClientLevel3=5398313903&moatClientLevel4=138314257809&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=1x1, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 4901 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 4901 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 3287 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 3287 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1675577097824	Marionette	INFO	Stopped listening on port 34255
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675577126750	geckodriver	INFO	Listening on 127.0.0.1:52657
+1675577127303	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "35345" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHvr7JW"
+*** You are running in headless mode.
+
+(firefox:1590): Gtk-WARNING **: 01:05:27.345: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.213466) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.213466) |[1][GFX1-]: glxtest: libEGL no display (t=0.213509) [GFX1-]: glxtest: libEGL no display
+1675577127541	Marionette	INFO	Marionette enabled
+1675577127544	Marionette	INFO	Listening on port 40089
+WebDriver BiDi listening on ws://localhost:35345
+Read port: 40089
+1675577127646	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.213466) |[1][GFX1-]: glxtest: libEGL no display (t=0.213509) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.641671) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHvr7JW/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:35345/devtools/browser/83d9222a-524b-4707-ba34-f9e5f4cebe96
+1675577132581	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577132597	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577132611	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577132626	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577132646	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577132655	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577132663	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577132667	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577132672	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577132675	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577185494	geckodriver	INFO	Listening on 127.0.0.1:51753
+1675577186052	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "50757" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejfW5oC"
+*** You are running in headless mode.
+
+(firefox:1857): Gtk-WARNING **: 01:06:26.100: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22966) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22966) |[1][GFX1-]: glxtest: libEGL no display (t=0.2297) [GFX1-]: glxtest: libEGL no display
+1675577186311	Marionette	INFO	Marionette enabled
+1675577186315	Marionette	INFO	Listening on port 37921
+WebDriver BiDi listening on ws://localhost:50757
+Read port: 37921
+1675577186402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.22966) |[1][GFX1-]: glxtest: libEGL no display (t=0.2297) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.667678) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejfW5oC/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50757/devtools/browser/a3c109b7-04d2-4462-a960-ce462b677cba
+1675577190866	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577190871	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577190875	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577190879	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577190883	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577190887	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577190897	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577190901	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577190905	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577190908	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577200505	geckodriver	INFO	Listening on 127.0.0.1:50855
+1675577201058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "51921" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFOyzhr"
+*** You are running in headless mode.
+
+(firefox:2097): Gtk-WARNING **: 01:06:41.101: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.227461) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.227461) |[1][GFX1-]: glxtest: libEGL no display (t=0.227502) [GFX1-]: glxtest: libEGL no display
+1675577201301	Marionette	INFO	Marionette enabled
+1675577201304	Marionette	INFO	Listening on port 39297
+WebDriver BiDi listening on ws://localhost:51921
+Read port: 39297
+1675577201406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.227461) |[1][GFX1-]: glxtest: libEGL no display (t=0.227502) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.653096) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFOyzhr/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:51921/devtools/browser/0265f4dc-14e1-46ed-98ed-c99ffb62612a
+1675577204495	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577204502	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577204506	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577204510	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577204514	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577204519	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577204529	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577204535	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577204540	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577204543	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577253990	geckodriver	INFO	Listening on 127.0.0.1:41905
+1675577254544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "44005" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqFWcdR"
+*** You are running in headless mode.
+
+(firefox:2340): Gtk-WARNING **: 01:07:34.586: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.213429) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.213429) |[1][GFX1-]: glxtest: libEGL no display (t=0.213468) [GFX1-]: glxtest: libEGL no display
+1675577254782	Marionette	INFO	Marionette enabled
+1675577254785	Marionette	INFO	Listening on port 41799
+WebDriver BiDi listening on ws://localhost:44005
+Read port: 41799
+1675577254963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.213429) |[1][GFX1-]: glxtest: libEGL no display (t=0.213468) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.639481) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqFWcdR/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:44005/devtools/browser/d89394ad-a0ba-49b7-bdbd-693faa574082
+1675577262053	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577262058	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577262063	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577262067	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577262071	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577262075	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577262079	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577262083	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577262087	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577262096	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577277236	geckodriver	INFO	Listening on 127.0.0.1:37475
+1675577277800	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "41117" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXdRhrR"
+*** You are running in headless mode.
+
+(firefox:2581): Gtk-WARNING **: 01:07:57.856: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.26083) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.26083) |[1][GFX1-]: glxtest: libEGL no display (t=0.260896) [GFX1-]: glxtest: libEGL no display
+1675577278083	Marionette	INFO	Marionette enabled
+1675577278086	Marionette	INFO	Listening on port 39657
+WebDriver BiDi listening on ws://localhost:41117
+Read port: 39657
+1675577278173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.26083) |[1][GFX1-]: glxtest: libEGL no display (t=0.260896) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.731945) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXdRhrR/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41117/devtools/browser/08c07227-da0f-4e3f-bc50-62148bd2b876
+1675577281178	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577281183	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577281188	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577281192	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577281196	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577281200	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577281204	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577281208	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577281212	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577281221	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577287948	geckodriver	INFO	Listening on 127.0.0.1:45913
+1675577288503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "56139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile689LOq"
+*** You are running in headless mode.
+
+(firefox:2816): Gtk-WARNING **: 01:08:08.548: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.215654) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.215654) |[1][GFX1-]: glxtest: libEGL no display (t=0.215693) [GFX1-]: glxtest: libEGL no display
+1675577288745	Marionette	INFO	Marionette enabled
+1675577288748	Marionette	INFO	Listening on port 36753
+WebDriver BiDi listening on ws://localhost:56139
+Read port: 36753
+1675577288851	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.215654) |[1][GFX1-]: glxtest: libEGL no display (t=0.215693) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.645575) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile689LOq/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56139/devtools/browser/b7633a76-19ef-4326-a97a-3dbb64e79ce5
+1675577289626	Marionette	INFO	Stopped listening on port 36753
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1675577290002	geckodriver	INFO	Listening on 127.0.0.1:43247
+1675577290542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "38477" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerShoiV"
+*** You are running in headless mode.
+
+(firefox:3018): Gtk-WARNING **: 01:08:10.585: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.213303) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.213303) |[1][GFX1-]: glxtest: libEGL no display (t=0.213349) [GFX1-]: glxtest: libEGL no display
+1675577290781	Marionette	INFO	Marionette enabled
+1675577290785	Marionette	INFO	Listening on port 32879
+WebDriver BiDi listening on ws://localhost:38477
+Read port: 32879
+1675577290892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.213303) |[1][GFX1-]: glxtest: libEGL no display (t=0.213349) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.660593) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerShoiV/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38477/devtools/browser/f7df6787-6c42-48ab-9f04-5f34bd88d851
+1675577293097	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577293110	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577293117	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577293122	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577293128	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577293132	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577293137	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577293147	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577293151	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577293155	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577351704	geckodriver	INFO	Listening on 127.0.0.1:40171
+1675577352258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "45515" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0XEBwG"
+*** You are running in headless mode.
+
+(firefox:3275): Gtk-WARNING **: 01:09:12.300: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225514) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225514) |[1][GFX1-]: glxtest: libEGL no display (t=0.225554) [GFX1-]: glxtest: libEGL no display
+1675577352498	Marionette	INFO	Marionette enabled
+1675577352501	Marionette	INFO	Listening on port 37083
+WebDriver BiDi listening on ws://localhost:45515
+Read port: 37083
+1675577352677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225514) |[1][GFX1-]: glxtest: libEGL no display (t=0.225554) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.662545) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0XEBwG/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45515/devtools/browser/f73148e4-1c56-4644-97db-65b0cf37a038
+1675577356959	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577356964	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577356968	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577356972	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577356976	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577356980	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577356984	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577356988	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577356992	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577357001	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675577885320	geckodriver	INFO	Listening on 127.0.0.1:54347
+1675577885782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "35291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexxFFvZ"
+*** You are running in headless mode.
+
+(firefox:59): Gtk-WARNING **: 01:18:05.906: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.735002) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.735002) |[1][GFX1-]: glxtest: libEGL no display (t=0.735321) [GFX1-]: glxtest: libEGL no display
+1675577886596	Marionette	INFO	Marionette enabled
+1675577886600	Marionette	INFO	Listening on port 34925
+WebDriver BiDi listening on ws://localhost:35291
+Read port: 34925
+1675577886799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.735002) |[1][GFX1-]: glxtest: libEGL no display (t=0.735321) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.46985) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexxFFvZ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:35291/devtools/browser/574d43be-a714-4c89-8416-4d683812c0e7
+1675577887783	Marionette	INFO	Stopped listening on port 34925
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675577888173	geckodriver	INFO	Listening on 127.0.0.1:57947
+1675577888720	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "59005" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCitOoC"
+*** You are running in headless mode.
+
+(firefox:310): Gtk-WARNING **: 01:18:08.771: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.241366) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.241366) |[1][GFX1-]: glxtest: libEGL no display (t=0.241411) [GFX1-]: glxtest: libEGL no display
+1675577888974	Marionette	INFO	Marionette enabled
+1675577888977	Marionette	INFO	Listening on port 38811
+WebDriver BiDi listening on ws://localhost:59005
+Read port: 38811
+1675577889063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.241366) |[1][GFX1-]: glxtest: libEGL no display (t=0.241411) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.661166) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCitOoC/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:59005/devtools/browser/f5f2e9e2-6fe1-4ff1-93ac-e1c046a5ecde
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 3521 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 3521 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 4158 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 4158 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1675577926990	Marionette	INFO	Stopped listening on port 38811
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675577930172	geckodriver	INFO	Listening on 127.0.0.1:54309
+1675577930632	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "47371" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefL6voQ"
+*** You are running in headless mode.
+
+(firefox:55): Gtk-WARNING **: 01:18:50.688: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.577537) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.577537) |[1][GFX1-]: glxtest: libEGL no display (t=0.577577) [GFX1-]: glxtest: libEGL no display
+1675577931275	Marionette	INFO	Marionette enabled
+1675577931281	Marionette	INFO	Listening on port 37527
+WebDriver BiDi listening on ws://localhost:47371
+Read port: 37527
+1675577931450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.577537) |[1][GFX1-]: glxtest: libEGL no display (t=0.577577) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.31325) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefL6voQ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47371/devtools/browser/8ed070bf-0b51-41ed-8fb0-d16cfc4cc986
+1675577932649	Marionette	INFO	Stopped listening on port 37527
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 143: Error: Shutdown, aborting read-only worker requests.
+1675577992651	geckodriver	INFO	Listening on 127.0.0.1:60133
+1675577993221	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "43481" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilef6wzIW"
+*** You are running in headless mode.
+
+(firefox:313): Gtk-WARNING **: 01:19:53.286: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.264324) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.264324) |[1][GFX1-]: glxtest: libEGL no display (t=0.264367) [GFX1-]: glxtest: libEGL no display
+1675577993507	Marionette	INFO	Marionette enabled
+1675577993511	Marionette	INFO	Listening on port 41039
+WebDriver BiDi listening on ws://localhost:43481
+Read port: 41039
+1675577993606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.264324) |[1][GFX1-]: glxtest: libEGL no display (t=0.264367) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.722586) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef6wzIW/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43481/devtools/browser/9166caeb-63a5-479d-b2e4-8f592dc9e36b
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 5013 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 5013 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4644027748&moatClientLevel2=3126578869&moatClientLevel3=6184611277&moatClientLevel4=138418151075&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=300x250, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4644027748&moatClientLevel2=3126578869&moatClientLevel3=6184611277&moatClientLevel4=138418151075&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=300x250, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4644027748&moatClientLevel2=3126578869&moatClientLevel3=6184611277&moatClientLevel4=138418151075&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=300x250, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4644027748&moatClientLevel2=3126578869&moatClientLevel3=6184611277&moatClientLevel4=138418151075&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=300x250, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 1926 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 1926 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1675578029137	Marionette	INFO	Stopped listening on port 41039
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675578029524	geckodriver	INFO	Listening on 127.0.0.1:40543
+1675578030070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "56485" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehxVpRM"
+*** You are running in headless mode.
+
+(firefox:586): Gtk-WARNING **: 01:20:30.121: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.24594) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.24594) |[1][GFX1-]: glxtest: libEGL no display (t=0.245984) [GFX1-]: glxtest: libEGL no display
+1675578030339	Marionette	INFO	Marionette enabled
+1675578030342	Marionette	INFO	Listening on port 42045
+WebDriver BiDi listening on ws://localhost:56485
+Read port: 42045
+1675578030433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.24594) |[1][GFX1-]: glxtest: libEGL no display (t=0.245984) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.687154) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehxVpRM/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56485/devtools/browser/85bd2533-b184-4a90-bab4-717c007997b3
+1675578033311	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578033320	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578033325	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578033344	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578033349	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578033353	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578033357	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578033362	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578033365	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578033369	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578178057	geckodriver	INFO	Listening on 127.0.0.1:59213
+1675578178611	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "33685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0ckW7W"
+*** You are running in headless mode.
+
+(firefox:836): Gtk-WARNING **: 01:22:58.656: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.234312) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.234312) |[1][GFX1-]: glxtest: libEGL no display (t=0.23435) [GFX1-]: glxtest: libEGL no display
+1675578178862	Marionette	INFO	Marionette enabled
+1675578178866	Marionette	INFO	Listening on port 37811
+WebDriver BiDi listening on ws://localhost:33685
+Read port: 37811
+1675578178951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.234312) |[1][GFX1-]: glxtest: libEGL no display (t=0.23435) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.670479) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0ckW7W/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:33685/devtools/browser/d3a0ed82-3e34-4cca-8592-0699a68b6560
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 6201 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 6201 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 5781 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qd5KMEVePpT1ECIYP18qBYKfQjivfqNOtA0cTjFsQVM.js line 2 > eval line 5781 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1675578215737	Marionette	INFO	Stopped listening on port 37811
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675578216126	geckodriver	INFO	Listening on 127.0.0.1:47981
+1675578216669	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "53853" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFLTfGu"
+*** You are running in headless mode.
+
+(firefox:1088): Gtk-WARNING **: 01:23:36.716: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.239111) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.239111) |[1][GFX1-]: glxtest: libEGL no display (t=0.239388) [GFX1-]: glxtest: libEGL no display
+1675578216926	Marionette	INFO	Marionette enabled
+1675578216930	Marionette	INFO	Listening on port 42415
+WebDriver BiDi listening on ws://localhost:53853
+Read port: 42415
+1675578217021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.239111) |[1][GFX1-]: glxtest: libEGL no display (t=0.239388) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.679838) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFLTfGu/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:53853/devtools/browser/bd107ac9-ea04-459c-8792-b3581f5ae0f8
+1675578220674	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578220680	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578220684	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578220690	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578220694	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578220703	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578220708	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578220715	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578220726	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578220731	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578251113	geckodriver	INFO	Listening on 127.0.0.1:44301
+1675578251668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "60813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefasJ0a"
+*** You are running in headless mode.
+
+(firefox:1323): Gtk-WARNING **: 01:24:11.713: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.234142) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.234142) |[1][GFX1-]: glxtest: libEGL no display (t=0.234182) [GFX1-]: glxtest: libEGL no display
+1675578251918	Marionette	INFO	Marionette enabled
+1675578251922	Marionette	INFO	Listening on port 45699
+WebDriver BiDi listening on ws://localhost:60813
+Read port: 45699
+1675578252009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.234142) |[1][GFX1-]: glxtest: libEGL no display (t=0.234182) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.668503) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefasJ0a/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:60813/devtools/browser/12bc3808-2fff-4cf9-b33f-0c9cc25dcdcd
+1675578258872	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578258878	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578258882	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578258892	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578258898	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578258902	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578258907	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578258911	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578258914	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578258918	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578504804	geckodriver	INFO	Listening on 127.0.0.1:43417
+1675578505497	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "41499" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVxkY4Q"
+*** You are running in headless mode.
+
+(firefox:1606): Gtk-WARNING **: 01:28:25.544: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.239443) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.239443) |[1][GFX1-]: glxtest: libEGL no display (t=0.239483) [GFX1-]: glxtest: libEGL no display
+1675578505771	Marionette	INFO	Marionette enabled
+1675578505774	Marionette	INFO	Listening on port 42823
+WebDriver BiDi listening on ws://localhost:41499
+Read port: 42823
+1675578505865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.239443) |[1][GFX1-]: glxtest: libEGL no display (t=0.239483) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.699146) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVxkY4Q/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41499/devtools/browser/621c3169-4a06-4e2d-ab15-ee51c439e10b
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1675578512535	Marionette	INFO	Stopped listening on port 42823
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675578512940	geckodriver	INFO	Listening on 127.0.0.1:37959
+1675578513483	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "47459" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSS4MFM"
+*** You are running in headless mode.
+
+(firefox:1857): Gtk-WARNING **: 01:28:33.530: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.236181) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.236181) |[1][GFX1-]: glxtest: libEGL no display (t=0.236575) [GFX1-]: glxtest: libEGL no display
+1675578513749	Marionette	INFO	Marionette enabled
+1675578513752	Marionette	INFO	Listening on port 38643
+WebDriver BiDi listening on ws://localhost:47459
+Read port: 38643
+1675578513849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.236181) |[1][GFX1-]: glxtest: libEGL no display (t=0.236575) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.6921) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSS4MFM/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47459/devtools/browser/b0265f60-290c-4d48-80ad-aa434e1ad63b
+1675578515769	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578515777	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578515782	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578515787	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578515791	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578515797	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578515803	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578515807	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578515812	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578515823	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578596958	geckodriver	INFO	Listening on 127.0.0.1:37749
+1675578597512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "50219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3pMzul"
+*** You are running in headless mode.
+
+(firefox:2131): Gtk-WARNING **: 01:29:57.556: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.218387) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.218387) |[1][GFX1-]: glxtest: libEGL no display (t=0.218441) [GFX1-]: glxtest: libEGL no display
+1675578597756	Marionette	INFO	Marionette enabled
+1675578597759	Marionette	INFO	Listening on port 42065
+WebDriver BiDi listening on ws://localhost:50219
+Read port: 42065
+1675578597939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.218387) |[1][GFX1-]: glxtest: libEGL no display (t=0.218441) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.677807) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3pMzul/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50219/devtools/browser/ea103a82-861b-4f3a-8b2d-41fe9a636ead
+1675578598708	Marionette	INFO	Stopped listening on port 42065
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675578599531	geckodriver	INFO	Listening on 127.0.0.1:37819
+1675578600094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "36915" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuJNYGK"
+*** You are running in headless mode.
+
+(firefox:2342): Gtk-WARNING **: 01:30:00.146: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.246217) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.246217) |[1][GFX1-]: glxtest: libEGL no display (t=0.246267) [GFX1-]: glxtest: libEGL no display
+1675578600362	Marionette	INFO	Marionette enabled
+1675578600366	Marionette	INFO	Listening on port 33007
+WebDriver BiDi listening on ws://localhost:36915
+Read port: 33007
+1675578600459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.246217) |[1][GFX1-]: glxtest: libEGL no display (t=0.246267) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.708855) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuJNYGK/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:36915/devtools/browser/67d804cb-f632-4c33-8ffb-c546fdd70c61
+1675578607763	Marionette	INFO	Stopped listening on port 33007
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1675578608304	geckodriver	INFO	Listening on 127.0.0.1:43863
+1675578608849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "43353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerRiapv"
+*** You are running in headless mode.
+
+(firefox:2590): Gtk-WARNING **: 01:30:08.895: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.247639) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.247639) |[1][GFX1-]: glxtest: libEGL no display (t=0.247678) [GFX1-]: glxtest: libEGL no display
+1675578609112	Marionette	INFO	Marionette enabled
+1675578609115	Marionette	INFO	Listening on port 45445
+WebDriver BiDi listening on ws://localhost:43353
+Read port: 45445
+1675578609210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.247639) |[1][GFX1-]: glxtest: libEGL no display (t=0.247678) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.719528) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerRiapv/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43353/devtools/browser/fc20597e-f1b4-49e2-ab59-a3bad872e26f
+1675578612552	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578612558	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578612562	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578612566	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578612571	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578612575	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578612579	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578612588	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578612592	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578612596	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578676301	geckodriver	INFO	Listening on 127.0.0.1:58363
+1675578676856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "50385" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5iZZJe"
+*** You are running in headless mode.
+
+(firefox:2844): Gtk-WARNING **: 01:31:16.901: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.222648) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.222648) |[1][GFX1-]: glxtest: libEGL no display (t=0.222694) [GFX1-]: glxtest: libEGL no display
+1675578677095	Marionette	INFO	Marionette enabled
+1675578677098	Marionette	INFO	Listening on port 45443
+WebDriver BiDi listening on ws://localhost:50385
+Read port: 45443
+1675578677276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.222648) |[1][GFX1-]: glxtest: libEGL no display (t=0.222694) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.64665) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5iZZJe/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50385/devtools/browser/52a709ad-1c8d-452f-be43-194a05f73f7c
+1675578685106	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578685111	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578685120	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578685124	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578685129	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578685133	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578685138	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578685141	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578685144	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578685148	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578693911	geckodriver	INFO	Listening on 127.0.0.1:54399
+1675578694468	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "47029" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGNi9xf"
+*** You are running in headless mode.
+
+(firefox:3080): Gtk-WARNING **: 01:31:34.512: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.232655) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.232655) |[1][GFX1-]: glxtest: libEGL no display (t=0.232917) [GFX1-]: glxtest: libEGL no display
+1675578694718	Marionette	INFO	Marionette enabled
+1675578694721	Marionette	INFO	Listening on port 42873
+WebDriver BiDi listening on ws://localhost:47029
+Read port: 42873
+1675578694809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.232655) |[1][GFX1-]: glxtest: libEGL no display (t=0.232917) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.680513) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGNi9xf/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47029/devtools/browser/f6d8d98f-d64f-41df-9425-74bfdf39da05
+1675578700986	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578700995	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578701000	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578701004	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578701008	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578701012	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578701016	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578701026	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578701029	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578701032	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578703048	geckodriver	INFO	Listening on 127.0.0.1:38629
+1675578703604	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "54289" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileezGKJY"
+*** You are running in headless mode.
+
+(firefox:3314): Gtk-WARNING **: 01:31:43.649: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.218598) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.218598) |[1][GFX1-]: glxtest: libEGL no display (t=0.218647) [GFX1-]: glxtest: libEGL no display
+1675578703848	Marionette	INFO	Marionette enabled
+1675578703851	Marionette	INFO	Listening on port 42635
+WebDriver BiDi listening on ws://localhost:54289
+Read port: 42635
+1675578703952	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.218598) |[1][GFX1-]: glxtest: libEGL no display (t=0.218647) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.655982) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileezGKJY/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:54289/devtools/browser/748ce233-76b3-44b5-beec-d6a0d7068bda
+1675578708907	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578708912	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578708916	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578708921	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578708925	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578708928	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578708933	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578708943	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578708947	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578708950	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578711724	geckodriver	INFO	Listening on 127.0.0.1:49097
+1675578712281	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "57263" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezE2oZ6"
+*** You are running in headless mode.
+
+(firefox:3553): Gtk-WARNING **: 01:31:52.329: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.236913) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.236913) |[1][GFX1-]: glxtest: libEGL no display (t=0.236964) [GFX1-]: glxtest: libEGL no display
+1675578712535	Marionette	INFO	Marionette enabled
+1675578712538	Marionette	INFO	Listening on port 43547
+WebDriver BiDi listening on ws://localhost:57263
+Read port: 43547
+1675578712629	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.236913) |[1][GFX1-]: glxtest: libEGL no display (t=0.236964) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.676379) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezE2oZ6/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:57263/devtools/browser/4af4545e-f750-48ae-bab0-5bcc3c63ebde
+1675578713521	Marionette	INFO	Stopped listening on port 43547
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 143: Error: Shutdown, aborting read-only worker requests.
+1675578713908	geckodriver	INFO	Listening on 127.0.0.1:36409
+1675578714451	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "48019" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuRX0zH"
+*** You are running in headless mode.
+
+(firefox:3758): Gtk-WARNING **: 01:31:54.499: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.236248) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.236248) |[1][GFX1-]: glxtest: libEGL no display (t=0.236289) [GFX1-]: glxtest: libEGL no display
+1675578714706	Marionette	INFO	Marionette enabled
+1675578714710	Marionette	INFO	Listening on port 41677
+WebDriver BiDi listening on ws://localhost:48019
+Read port: 41677
+1675578714803	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.236248) |[1][GFX1-]: glxtest: libEGL no display (t=0.236289) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.676231) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuRX0zH/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:48019/devtools/browser/11d58747-d3c5-48eb-8ebe-996d36fed916
+1675578718041	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578718045	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578718050	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578718054	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578718063	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578718068	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578718072	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578718076	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578718079	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675578718083	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675606614348	geckodriver	INFO	Listening on 127.0.0.1:34611
+1675606615231	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "43223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2dqHDp"
+*** You are running in headless mode.
+
+(firefox:57): Gtk-WARNING **: 09:16:55.293: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.622233) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.622233) |[1][GFX1-]: glxtest: libEGL no display (t=0.622276) [GFX1-]: glxtest: libEGL no display
+1675606616179	Marionette	INFO	Marionette enabled
+1675606616184	Marionette	INFO	Listening on port 34995
+WebDriver BiDi listening on ws://localhost:43223
+Read port: 34995
+1675606616338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.622233) |[1][GFX1-]: glxtest: libEGL no display (t=0.622276) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=1.51401) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2dqHDp/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43223/devtools/browser/d48a9533-9dc6-405c-b267-93de143ec0db
+1675606617331	Marionette	INFO	Stopped listening on port 34995
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 143: Error: Shutdown, aborting read-only worker requests.
+1675606617724	geckodriver	INFO	Listening on 127.0.0.1:43157
+1675606618271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "39917" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelAhUZs"
+*** You are running in headless mode.
+
+(firefox:327): Gtk-WARNING **: 09:16:58.319: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225407) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225407) |[1][GFX1-]: glxtest: libEGL no display (t=0.225447) [GFX1-]: glxtest: libEGL no display
+1675606618518	Marionette	INFO	Marionette enabled
+1675606618521	Marionette	INFO	Listening on port 36491
+WebDriver BiDi listening on ws://localhost:39917
+Read port: 36491
+1675606618619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.225407) |[1][GFX1-]: glxtest: libEGL no display (t=0.225447) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.652017) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelAhUZs/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39917/devtools/browser/b055b12d-e5ce-4e07-81cf-a08ae42aefc4
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=4623916797&moatClientLevel2=2546630774&moatClientLevel3=6095851649&moatClientLevel4=138402621571&moatClientSlicer1=31751151&moatClientSlicer2=21885118207&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/search_1&zMoatSZ=0x0, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=102939231&moatClientLevel2=2707588774&moatClientLevel3=5398017583&moatClientLevel4=138314674300&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=1x1, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=102939231&moatClientLevel2=2707588774&moatClientLevel3=5398017583&moatClientLevel4=138314674300&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=1x1, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=102939231&moatClientLevel2=2707588774&moatClientLevel3=5398017583&moatClientLevel4=138314674300&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=1x1, line 238: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://z.moatads.com/zillowgamdisplay501800116559/moatad.js#moatClientLevel1=102939231&moatClientLevel2=2707588774&moatClientLevel3=5398017583&moatClientLevel4=138314674300&moatClientSlicer1=31751151&moatClientSlicer2=21888263364&zMoatPS=&zMoatAdUnitPath=/7449/zillow/search_results_1/buy_general/b_right_p1&zMoatSZ=1x1, line 238: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1ltCRSOx5k-1I0D0UILHPXNozEC50ZuHf8HEjBLxTFM.js line 2 > eval line 1659 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1ltCRSOx5k-1I0D0UILHPXNozEC50ZuHf8HEjBLxTFM.js line 2 > eval line 1659 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1ltCRSOx5k-1I0D0UILHPXNozEC50ZuHf8HEjBLxTFM.js line 2 > eval line 791 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1ltCRSOx5k-1I0D0UILHPXNozEC50ZuHf8HEjBLxTFM.js line 2 > eval line 791 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+Failed to create secure directory (/run/user/7183615/pulse): No such file or directory
+Failed to create secure directory (/run/user/7183615/pulse): No such file or directory
+Failed to create secure directory (/run/user/7183615/pulse): No such file or directory
+Failed to create secure directory (/run/user/7183615/pulse): No such file or directory
+Failed to create secure directory (/run/user/7183615/pulse): No such file or directory
+Failed to create secure directory (/run/user/7183615/pulse): No such file or directory
+Failed to create secure directory (/run/user/7183615/pulse): No such file or directory
+Failed to create secure directory (/run/user/7183615/pulse): No such file or directory
+1675606638574	Marionette	INFO	Stopped listening on port 36491
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675606639000	geckodriver	INFO	Listening on 127.0.0.1:49657
+1675606639550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=810,1080" "--headless" "--disable-extensions" "--no-sandbox" "--disable-dev-shm-usage" "--remote-debugging-port" "52479" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUczK9b"
+*** You are running in headless mode.
+
+(firefox:620): Gtk-WARNING **: 09:17:19.607: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.296046) [GFX1-]: glxtest: Unable to open a connection to the X server
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.296046) |[1][GFX1-]: glxtest: libEGL no display (t=0.296094) [GFX1-]: glxtest: libEGL no display
+1675606639863	Marionette	INFO	Marionette enabled
+1675606639867	Marionette	INFO	Listening on port 44413
+WebDriver BiDi listening on ws://localhost:52479
+Read port: 44413
+1675606640123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: Unable to open a connection to the X server (t=0.296046) |[1][GFX1-]: glxtest: libEGL no display (t=0.296094) |[2][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.797296) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUczK9b/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:52479/devtools/browser/873bfe91-4afc-4bee-9a6f-674be7a1598e
+1675606641998	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675606642011	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675606642015	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675606642020	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675606642023	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675606642027	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675606642032	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675606642037	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675606642040	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1675606642043	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
